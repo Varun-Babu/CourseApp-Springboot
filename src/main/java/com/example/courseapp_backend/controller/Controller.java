@@ -11,5 +11,11 @@ public class Controller {
     public String AddCourse(){
         return "add";
     }
+    @GetMapping("/view")
+    public String ViewCourse(){
+        return "view";
+    }
+
+
 
 }
